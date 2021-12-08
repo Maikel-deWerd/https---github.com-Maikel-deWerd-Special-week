@@ -16,7 +16,7 @@ const Navigation = () => {
                 <ul className={styles.navigationList}>
                     {navItems.map((item) => (
                         <li className={styles.navigationItem} key={item}>
-                            {item}
+                            <a className={styles.links} href="/">{item}</a>
                         </li>
                     ))}
                 </ul>
