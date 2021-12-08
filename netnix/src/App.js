@@ -1,13 +1,16 @@
-import Header from './componenten/Header';
+import Navigation from './Components/Navigation';
+import Films from './Components/Films';
+import Footer from './Components/Footer';
 import './App.css';
+import './normalize.css';
 import React from 'react';
-import Login from './Pages/login.js';
 
 function App() {
   return (
-    <div className="container">
-      <Header />
-      <Login />
+    <div className="Navigation">
+      <Navigation />
+      <Films />
+      <Footer />
     </div>
   );
 }
