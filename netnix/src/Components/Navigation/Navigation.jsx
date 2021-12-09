@@ -6,7 +6,7 @@ import SecondaryNav from '../SecondaryNav'
 const Navigation = () => {
     const navItems = [
         'Home',
-        'Films',
+        'Populair',
         'Coming soon'
     ]
     return (
