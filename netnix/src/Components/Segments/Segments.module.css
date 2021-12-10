@@ -19,3 +19,37 @@
     width: 300px;
     height: 150px;
 }
+
+.btnPos{
+    position: absolute; 
+    width: 300px;
+    height: 150px;
+    opacity: 0;
+}
+
+.btnPos2{
+    position: absolute; 
+    width: 300px;
+    height: 150px;
+    opacity: 0;
+    left: 300px;
+}
+
+.btnPos3{
+    position: absolute; 
+    width: 300px;
+    height: 150px;
+    opacity: 0;
+    left: 600px;
+}
+
+.popContent{
+    display: flex;
+}
+
+.video{
+    width: 450px;
+    height: 250px;
+    background-color: cyan;
+    margin-right: 10px;
+}
