@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Navigation.module.css'
-import logo from './assets/logo.svg'
+import logo from './assets/netnix.png'
 import SecondaryNav from '../SecondaryNav'
 
 const Navigation = () => {
