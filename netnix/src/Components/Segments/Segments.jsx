@@ -4,6 +4,7 @@ import placeholder from './assets2/place.jpeg'
 import placeholder1 from './assets2/Pasific.jpeg'
 import placeholder2 from './assets2/Tomb.jpeg'
 import placeholder3 from './assets2/Hacksaw.jpeg'
+import video from './assets2/trailer.mp4'
 import Popup from '../Popup'
 import {useState} from 'react'
 
@@ -20,7 +21,7 @@ const Segments = ({title}) => {
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup} >
                 <h3>Pacific Rim Uprising</h3>
                 <div className={styles.popContent}>
-                    <video className={styles.video} src="./assets2/trailer.mp4"></video>
+                    <video controls className={styles.video} src={video}></video>
                     <p>
                         Jake, de zoon va Stacker Pentecost, gaat samen met een oude pilotenvriend en een Jaeger-hacker opnieuw de strijd aan met Kaiju-monsters om de mensheid te redden.
                     </p> 
